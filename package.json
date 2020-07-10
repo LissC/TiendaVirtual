@@ -1,0 +1,29 @@
+{
+  "name": "tiendavirtual",
+  "version": "1.0.0",
+  "description": "Una pagina web de eCommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivandelmal/TiendaVirtual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivandelmal/TiendaVirtual/issues"
+  },
+  "homepage": "https://github.com/Ivandelmal/TiendaVirtual#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
